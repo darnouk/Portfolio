@@ -1,0 +1,186 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #ad9d0d;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #ad9d0d;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/contour-lines.png");
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/* Style to make all card images the same size */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+/*** PAGE-SPECIFIC STYLES ***/
+
+/* Styles for secondary pages (about, resume, contact, projects) */
+body.secondary-page,
+body.secondary-page .jumbotron h2,
+body.secondary-page .jumbotron p,
+body.secondary-page .container p {
+    color: #000000;
+}
+
+body.secondary-page .navbar-default {
+    background-color: #ad9d0d;
+}
+
+body.secondary-page .jumbotron h2 {
+    color: white;
+    padding: 0;
+    border-radius: 5px;
+}
+
+/* Image container for project pages */
+.image-container {
+    text-align: center;
+}
+
+/* Style for embedded maps */
+.map-iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+/* Clearfix to prevent wrapping issues */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Portfolio Section Headers */
+.section-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ad9d0d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-divider {
+    border-color: #ad9d0d;
+    border-width: 3px;
+    width: 60%;
+    margin: 0 auto 30px auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #ad9d0d;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
