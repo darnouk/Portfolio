@@ -185,6 +185,89 @@ body {
     color: #242424;
 }
 
+/*** MOBILE ACCORDION STYLES ***/
+
+.accordion-card {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: #ad9d0d;
+    padding: 0;
+}
+
+.accordion-btn {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-btn:hover,
+.accordion-btn:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+.accordion-btn .badge {
+    background-color: white;
+    color: #ad9d0d;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.accordion-card .card-body {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.mobile-project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mobile-project-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f1fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #242424;
+    transition: all 0.2s ease;
+}
+
+.mobile-project-item:hover {
+    background-color: #ebd122;
+    text-decoration: none;
+    color: #242424;
+}
+
+.mobile-project-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.mobile-project-item span {
+    font-size: 14px;
+    font-weight: 500;
+    flex: 1;
+}
+
 /*** MOBILE RESPONSIVE STYLES ***/
 
 /* Tablets and smaller (768px and below) */
