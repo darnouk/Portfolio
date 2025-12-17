@@ -184,3 +184,166 @@ body {
     background-color: #f7f1fa;
     color: #242424;
 }
+
+/*** MOBILE RESPONSIVE STYLES ***/
+
+/* Tablets and smaller (768px and below) */
+@media (max-width: 768px) {
+    /* Jumbotron adjustments */
+    .jumbotron h2 {
+        font-size: 24px;
+        padding: 5px 10px;
+    }
+    
+    /* Section headers */
+    .section-header {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    
+    /* Cards */
+    .card {
+        margin-bottom: 30px;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+    
+    /* Text sizing */
+    p {
+        font-size: 16px;
+    }
+    
+    /* Container padding */
+    .container {
+        padding: 15px 10px;
+    }
+    
+    /* Map iframe */
+    .map-iframe {
+        height: 400px;
+    }
+    
+    /* Resume adjustments */
+    .resume h3 {
+        font-size: 20px;
+    }
+    
+    .resume h4 {
+        font-size: 18px;
+    }
+    
+    .resume ul li {
+        font-size: 14px;
+    }
+}
+
+/* Mobile phones (576px and below) */
+@media (max-width: 576px) {
+    /* Jumbotron */
+    .jumbotron h2 {
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    /* Navbar */
+    .navbar-brand {
+        font-size: 18px;
+    }
+    
+    .navbar-toggler {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    
+    /* Section headers */
+    .section-header {
+        font-size: 20px;
+    }
+    
+    .section-divider {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    /* Cards */
+    .card {
+        margin-bottom: 25px;
+    }
+    
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .card-title {
+        font-size: 16px;
+    }
+    
+    .card-body {
+        padding: 10px;
+    }
+    
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
+    /* Text sizing */
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    /* Container */
+    .container {
+        padding: 10px 15px;
+    }
+    
+    /* Map iframe */
+    .map-iframe {
+        height: 350px;
+    }
+    
+    /* Contact page social links */
+    .col-md-8 h3 {
+        font-size: 16px;
+    }
+    
+    /* Form adjustments */
+    .form-control {
+        font-size: 14px;
+    }
+    
+    /* Resume adjustments */
+    .resume h3 {
+        font-size: 18px;
+    }
+    
+    .resume h4 {
+        font-size: 16px;
+    }
+    
+    .resume p {
+        font-size: 14px;
+    }
+    
+    .resume ul li {
+        font-size: 13px;
+    }
+    
+    /* About page image */
+    #about-world {
+        margin-bottom: 15px;
+    }
+    
+    /* Alert boxes */
+    .alert {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
