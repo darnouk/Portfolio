@@ -162,6 +162,41 @@ body.secondary-page .jumbotron h2 {
     margin: 0 auto 30px auto;
 }
 
+/*** FEATURED "NEW!" SECTION ***/
+
+.new-badge {
+    display: inline-block;
+    background-color: #ad9d0d;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.featured-card {
+    border-color: #ad9d0d;
+    border-width: 2px;
+    overflow: hidden;
+}
+
+.featured-img {
+    width: 100%;
+    height: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.featured-text {
+    color: #000000;
+    font-size: 17px;
+}
+
 p {
     font-size: 20px;
 }
