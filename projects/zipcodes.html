@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Daniel Arnouk | Median Home Prices in WI by Zip Code</title>
+    <title>Daniel Arnouk | Home Price Explorer</title>
     <!-- Bootstrap stylesheet links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css">
     <!-- Custom stylesheet -->
@@ -48,7 +48,7 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h2>Median Home Prices in WI by Zip Code</h2>
+            <h2>Home Price Explorer</h2>
         </div>
     </div>
 
@@ -56,21 +56,33 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>An interactive map displaying zip code boundaries across Wisconsin.</h2><br><br>
-                <p>This web map provides a comprehensive view of all zip code tabulation areas (ZCTAs) throughout Wisconsin.
-                    <br> Users can explore the geographic distribution of zip codes and access detailed information about each area.
+                <h2>A national interactive map of US housing values by ZIP code, 2000&ndash;2025.</h2><br>
+                <p>This project began as a Wisconsin-only look at median home prices and has since grown to cover every ZIP code
+                    in the United States. It maps Zillow Home Value Index (ZHVI) data across a full 25 years, letting you watch
+                    how housing markets have shifted since 2000.
                     <br><br><strong>Features:</strong>
-                    <br>• Click on any zip code area to view detailed information including the zip code number and geographic boundaries
-                    <br>• Pan and zoom to explore different regions of Wisconsin
-                    <br>• Color-coded visualization for easy identification of different zip code zones
-                    <br>• Responsive design that works seamlessly across desktop and mobile devices
+                    <br>&bull; Scrub the year slider or hit "Play Timeline" to animate median home values from 2000 through 2025
+                    <br>&bull; Search any ZIP code to jump straight to it and see its current value
+                    <br>&bull; Filter the view down to a single state, or explore the country as a whole
+                    <br>&bull; Affordability filter &mdash; enter an annual income to highlight only the ZIP codes within reach
+                    <br>&bull; Toggle the color scale between state and national normalization to compare locally or nationwide
+                    <br>&bull; Live median, lowest, and highest value readouts that update with your selection
+                    <br>&bull; Compare price history for up to three ZIP codes side by side in a generated line chart
+                </p>
+                <p>
+                    <strong>Built with:</strong> Leaflet, vanilla JavaScript, and CARTO dark basemap tiles, using Zillow ZHVI data
+                    joined to ZIP Code Tabulation Area (ZCTA) boundaries from the U.S. Census Bureau.
+                </p>
+                <p>
+                    <a href="https://darnouk.github.io/ZHVI_Median_Home_Price_2000-2025/" class="btn btn-primary" target="_blank" rel="noopener">Open the full-screen map</a>
+                    <a href="https://github.com/darnouk/ZHVI_Median_Home_Price_2000-2025" class="btn btn-secondary" target="_blank" rel="noopener">View the code on GitHub</a>
                 </p>
             </div>
         </div>
     </div>
 
     <!-- Embed map project -->
-    <iframe class="map-iframe" src="https://darnouk.github.io/ZipCodes/"></iframe>
+    <iframe class="map-iframe" src="https://darnouk.github.io/ZHVI_Median_Home_Price_2000-2025/" title="Home Price Explorer interactive map" loading="lazy"></iframe>
 
     <!--put your external script links here-->
     <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
